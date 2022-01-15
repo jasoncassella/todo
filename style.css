@@ -36,7 +36,7 @@ body {
 }
 
 .sidenav #add {
-	padding-top: 20%;
+  padding-top: 20%;
 }
 
 .sidenav span:hover {
@@ -45,12 +45,11 @@ body {
 }
 
 .sidenav #add:hover {
-	color: rgb(221, 96, 96);
+  color: rgb(221, 96, 96);
 }
-
 
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
+  font-size: 18px; /* Increased text to enable scrolling */
   padding: 75px 10px;
 }
