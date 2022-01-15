@@ -35,10 +35,19 @@ body {
   display: block;
 }
 
+.sidenav #add {
+	padding-top: 20%;
+}
+
 .sidenav span:hover {
   color: #f1f1f1;
   cursor: pointer;
 }
+
+.sidenav #add:hover {
+	color: rgb(221, 96, 96);
+}
+
 
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
