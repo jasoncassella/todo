@@ -12,8 +12,6 @@ class Todo {
 
 addButton.addEventListener('click', addTodo);
 
-let brushTeeth = new Todo('brush teeth', { location: 'home', priority: 'Low', due: 'dec 11 2021', comments: 'with colgate' });
-
 function addTodo() {
   console.log('create new todo');
 }
