@@ -1,4 +1,4 @@
-let todoList = [];
+let todos = [];
 
 const addButton = document.querySelector('#add');
 
@@ -17,8 +17,9 @@ function addTodoPrompt() {
 }
 
 function updateContent() {
-  todoList.forEach(todo => {
-    console.log(todoList);
+  const todoList = document.querySelector('.todo-list');
+  todos.forEach(todo => {
+    console.log(todo);
   });
 }
 
