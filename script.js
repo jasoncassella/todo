@@ -1,17 +1,25 @@
+let todoList = [];
+
 const addButton = document.querySelector('#add');
 
 class Todo {
-  constructor(title, details, date, completed, trash) {
+  constructor(title, date, completed) {
     this.title = title;
-    this.details = details;
     this.date = date;
     this.completed = completed;
-    this.trash = trash;
   }
 }
 
-addButton.addEventListener('click', addTodo);
+addButton.addEventListener('click', addTodoPrompt);
 
-function addTodo() {
-  console.log('create new todo');
+function addTodoPrompt() {
+  console.log('create new todo prompt');
 }
+
+function updateContent() {
+  todoList.forEach(todo => {
+    console.log(todoList);
+  });
+}
+
+updateContent();
